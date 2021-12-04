@@ -1,0 +1,237 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Oct 15, 2021, 9:18:57 PM
+    Author     : Aminul Islam
+*/
+
+/*here I need to work with text align,float and display*/
+.firstsection {
+		/*background-color: purple;*/
+		height: auto;
+	}
+
+	.secondsection {
+		
+		height: auto;
+                margin-top:24px;
+	}
+
+	.box-main {
+		display: flex;
+		
+		align-items: center;
+		color: black;
+		max-width: 90%;
+		margin: auto;
+		height: 80%;
+	}
+
+	.firsthalf {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.secondhalf {
+		width: 100%;              
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	
+
+	.text-big {
+		font-family: 'Piazzolla', serif;
+		font-weight: bold;
+		font-size: 35px;
+	}
+
+              
+.achieveimg{
+    width: 100%;  
+    height: 400px; 
+    
+}
+.achieveimg .image{
+    margin-top: 26px;
+    width:25%;
+    height: 90%;
+    text-align: center;
+    display: inline-block;
+    float: left;
+   
+     
+}
+.image  img{
+  width: 100% ;
+  height: auto;
+  display: block;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.image #zoom-In img{
+ /*   <!--transform:scale(.5);--> */
+    transition: .2s ease-in-out;
+}
+
+.image #zoom-In:hover img{
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+body{
+    background: white;       
+}
+
+
+.navbar  {
+		display: flex;
+                height: 200px;
+		align-items: center;
+		justify-content: center;
+		position: sticky;
+		top: 0;
+		cursor: pointer;
+                 background-image:url("./img/cover.jpg");/* here . mean eneter to another folder or exit from css */
+                background-size: cover;
+               
+              
+	}
+
+	.background {
+             
+                background-color:gray;               
+		background-size: cover;
+           
+	}
+        /* here I do work with footer*/
+        .fotter #back{
+                 background-color:grey;               
+		background-size: cover; 
+        }
+       
+        .rightNav {
+                margin-left:16px; 
+               
+		width: 45%;
+                height:auto;
+		text-align: right;
+                display: flex;
+               
+	}
+	
+	.nav-list {
+            
+		width: 50%;
+                height: auto;
+		display: flex;
+		
+	}       
+	.logo {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.logo img {
+		width: 60px;
+		border-radius: 120px;
+	}
+        
+
+	.nav-list li {
+		list-style: none;
+		padding: 26px 30px;
+	}
+
+	.nav-list li a {
+		text-decoration: none;
+		color: white;
+	}
+
+	.nav-list li a:hover {
+	color: blanchedalmond;
+	}
+
+	
+	
+
+	
+	.text-small {
+		font-size: 18px;
+	}
+/* button beside search box*/
+	.btn {
+               height: 30px;
+               margin:16px;
+		padding: 8px 20px;
+	
+		border: 2px solid white;
+		border-radius: 8px;
+		background: none;
+		color: white;
+		cursor: pointer;
+	}
+/* button beside search box*/
+
+	.btn-sm {
+		padding: 4px 6px;
+		vertical-align: middle;
+	}
+
+/*fotter text, I mean the last text.copyright*/
+	.text-footer {
+           
+		text-align: center;
+		padding: 15px 0;
+		font-family: 'Ubuntu', sans-serif;
+		display: flex;
+		justify-content: center;
+		color: white;
+                border-radius: 4px;
+                
+	}
+/* work with search and button with it's define ID*/
+
+#search {
+    margin-bottom:16px;
+     margin-top:16px;
+     margin-left: 56px;
+    background: none;
+    padding: 4px;
+    height: 20px;
+    text-decoration: #ffffff;
+    width: 300px;
+    font-size: 12px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 7px;
+}
+
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  font-size: 15px;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: white;
+}
